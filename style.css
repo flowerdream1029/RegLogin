@@ -2,21 +2,25 @@
   font-family: myfont;
   src: url(43.ttf); }
 body {
+  box-sizing: border-box;
   margin: 0 auto;
-  background: no-repeat url("star.jpg") center center fixed;
+  background: no-repeat url(star.jpg) center center fixed;
   background-size: cover; }
 
 .login {
+  box-sizing: border-box;
   width: 40%;
   margin: 50px auto;
   text-align: center;
   background: linear-gradient(#c0dee2, #e278b8); }
 
 .login p > * {
+  box-sizing: border-box;
   display: inline-block;
   vertical-align: middle; }
 
-.label_input {
+.label-input {
+  box-sizing: border-box;
   font-size: 16px;
   font-family: myfont;
   width: 65px;
@@ -28,7 +32,8 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px; }
 
-.text_field {
+.text-field {
+  box-sizing: border-box;
   width: 280px;
   height: 24px;
   line-height: 24px;
@@ -36,7 +41,8 @@ body {
   border-bottom-right-radius: 5px;
   border: 0; }
 
-.text_pwd {
+.text-pwd {
+  box-sizing: border-box;
   width: 250px;
   height: 24px;
   line-height: 24px;
@@ -44,11 +50,12 @@ body {
   border-bottom-right-radius: 5px;
   border: 0; }
 
-.text_field:focus, .text_pwd:focus {
+.text-field:focus, .text-pwd:focus {
   border: 2px solid hotpink;
   box-shadow: 0 0 15px #03a9f4; }
 
-.button_pwd {
+.button-pwd {
+  box-sizing: border-box;
   font-family: myfont;
   width: 30px;
   height: 24px;
@@ -58,7 +65,8 @@ body {
   outline: 0;
   background-color: #96e8da; }
 
-.button_login {
+.button-login {
+  box-sizing: border-box;
   font-size: 20px;
   font-family: myfont;
   width: 80px;
@@ -76,7 +84,7 @@ body {
   cursor: pointer;
   transition-duration: 0.5s; }
 
-.button_login:hover {
+.button-login:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
 
 /*# sourceMappingURL=style.css.map */

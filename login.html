@@ -2,12 +2,14 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+    <meta http-squiv="X-UA-Compatible" content="IE=Edge" />
+    <link href="style.css" rel="stylesheet"/>
     <title>用户登录页面</title>
 </head>
 <body>
-<div class="div-login">
-    <p><h2>用户登录</h2></p>
+<div class="login">
+    <h2>用户登录</h2>
     <p>
         <label class="label-input">用户名</label><input type="text"  class="text-field" onblur="isChineseName(this)" />
     </p>
@@ -18,7 +20,7 @@
         <label class="label-input">本命</label><input type="text" id="idol" class="text-field" onblur="isEmptyIdol(this)" />
     </p>
     <p>
-        <label class="label-input">密码</label><input type="text" id="input_pwd" class="text-pwd" onblur="isSuitablePwd(this)"/>
+        <label class="label-input">密码</label><input type="text" id="input-pwd" class="text-pwd" onblur="isSuitablePwd(this)"/>
         <button onclick="showPwd(this)" class="button-pwd">隐藏</button>
     </p>
     <p>
